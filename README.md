@@ -21,7 +21,7 @@ This project involve the use of two dataset to gain insights into historical tre
                                                         2. Navigate to project directory: 'cd Food-Price-Dynamics' or
                                                         3. Ensure MySQL Workbench is Installed
                                                         4. Download CSV Files: Ensure that your CSV files are correctly formatted and contain the data you expect for your analysis.
-                                                        5. Execute SQL Queries with MySQL Workbench: Open MySQL Workbench and connect to your MySQL database. Then, execute the SQL                                                                   queries provided in your SQL query file.
+                                                        5. Execute SQL Queries with MySQL Workbench: Open MySQL Workbench and connect to your MySQL database. Then, execute the SQL queries provided in your SQL query file.
                                                         
 ### EDA
 
