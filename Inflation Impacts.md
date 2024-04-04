@@ -27,7 +27,7 @@
         ORDER BY
             date, region;
 ```
-The query you provided seems to be aimed at adjusting food prices for inflation and calculating the percentage change 
+The query is aimed at adjusting food prices for inflation and calculating the percentage change 
 in prices after adjustment. Here's an interpretation of the query and some suggestions on how to effectively present 
 its results: 
 Common Table Expression (CTE) - InflationAdjusted: This part of the query calculates the inflation-adjusted prices for food 
@@ -67,7 +67,7 @@ The percentage change is calculated as ((price_adjusted - price) / price) * 100.
         ORDER BY
             year, region;
 ```
-The query you provided performs the following steps: 
+The query performs the following steps: 
 Inflation Adjustment: It adjusts the food prices in the wfp_food_prices_nga table for inflation using the 
 nga_inflation_data table. This adjustment calculates the price-adjusted value based on the inflation rate for each year.
 
@@ -152,4 +152,4 @@ and interventions aimed at promoting economic stability, reducing food insecurit
 In summary, the analysis provides valuable insights into the complex relationship between inflation and food prices, 
 highlighting regional variations, economic trends, and policy implications in Nigeria's dynamic economic landscape. 
 These insights can guide policymakers, researchers, and stakeholders in formulating targeted interventions and strategies aimed 
-    at promoting economic stability, reducing food insecurity, and enhancing the overall well-being of the population.
+at promoting economic stability, reducing food insecurity, and enhancing the overall well-being of the population.
