@@ -22,7 +22,7 @@ This project involve the use of two dataset to gain insights into historical tre
                                                         3. Ensure MySQL Workbench is Installed
                                                         4. Download CSV Files: Ensure that your CSV files are correctly formatted and contain the data you expect for your analysis.
                                                         5. Execute SQL Queries with MySQL Workbench: Open MySQL Workbench and connect to your MySQL database. Then, execute the SQL queries provided in your SQL query file.
-                                                        
+                                                    
 ### EDA
 
 The project enables users to perform exploratory data analysis, allowing them to understand the distribution and characteristics of the data.
@@ -33,24 +33,31 @@ Users can explore temporal trends, regional variations, inflation impact, season
 Based on the queries and interpretations provided regarding regional, temporal, seasonal trends, market-specific insights and inflation impact on food prices in Nigeria, the overall findings can be summarized as follows:
 
 #### Regional Disparities
+
 There are significant variations in food prices across different regions of Nigeria. Factors such as market dynamics, infrastructure, local production capacity, and economic conditions contribute to these disparities.
 
 #### Temporal Trends
+
 Food prices in Nigeria exhibit both short-term fluctuations and long-term trends. Variations in inflation rates, changes in market demand, policy interventions, and external economic factors influence the trajectory of food prices over time.
 
 #### Seasonal Patterns
+
 Seasonal fluctuations play a crucial role in shaping food prices, particularly in agricultural economies like Nigeria. Dry and rainy seasons impact agricultural productivity, supply chains, and consumer demand, leading to seasonal price variations in food items.
 
 #### Inflation Impact
+
 Inflation rates have a significant impact on food prices, affecting consumer purchasing power and the overall cost of living. High inflation rates generally lead to increased food prices, while low inflation rates may contribute to price stability, influencing consumption patterns and market dynamics.
 
 #### Market-Specific Insights
+
 Analysis at the market level provides insights into localized pricing dynamics, demand-supply imbalances, and consumer behavior. Understanding market-specific factors such as transportation costs, regional preferences, and market integration is essential for effective pricing strategies and supply chain management.
 
 #### Price Volatility
+
 Price volatility varies across commodities, regions, and time periods. Certain commodities exhibit high volatility due to factors such as seasonality, market speculation, supply chain disruptions, and external shocks. Managing price volatility is crucial for ensuring food security, market stability, and sustainable economic development.
 
 ### Methods
+
 This project employs a combination of statistical methods, visualization techniques, and exploratory tools to gain insights, identify patterns, and uncover relationships within the dataset, laying the groundwork for further analysis and interpretation. The goal is to gain insights into the data and identify patterns or trends. The dataset used in this project was obtained from World Food Programme and from the World Bank data. Details regarding data collection can be found in [https://data.humdata.org/dataset/wfp-food-prices-for-nigeria?#] and [https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=NG] respectively. Prior to analysis, the data underwent extensive preprocessing steps, including data cleaning, missing value imputation, and feature scaling. The EDA process involved descriptive statistics, data visualization using python Matplotlib, correlation analysis, and distribution analysis.
 
 ### Limitations
@@ -74,8 +81,6 @@ Implementing evidence-based policy evaluation frameworks and adaptive management
 Moreover, promoting transparency, accountability, and open data initiatives is crucial to empowering citizens, civil society organizations, and the media to access, analyze, and interpret food price and inflation data. Fostering a culture of data-driven decision-making, knowledge sharing, and public engagement can promote greater social inclusion and democratic governance.
 
 ### License
-This project is licensed under the Apache License 2.0 - see the LICENSE file for details.
-Copyright [2023] [Peter Elaigwu Okewu]
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
